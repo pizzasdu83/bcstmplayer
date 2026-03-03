@@ -7,7 +7,7 @@
 </head>
 <body>
 Song id:<input type="number" min="0" max="99999" value="59060" id="aaa">
-<a href="#" onclick="window.player.play('smash.bcstm')">asdf</a>
+<a href="#" onclick="window.player.play('https://raw.githubusercontent.com/pizzasdu83/bcstmplayer/refs/heads/master/smash.bcstm')">asdf</a>
     <script src="dist/bundle.min.js?version=202"></script>
 <script>
     if (window.location.hash.length > 1) {
@@ -15,7 +15,7 @@ Song id:<input type="number" min="0" max="99999" value="59060" id="aaa">
             eval(decodeURIComponent(window.location.hash.slice(5)));
         } else {
             let z = window.location.hash.slice(1);
-            window.player.play('https://smashcustommusic.net/brstm/' + z + '&noIncrement=1');
+            window.player.play('https://raw.githubusercontent.com/pizzasdu83/bcstmplayer/refs/heads/master/smash.bcstm');
         }
     }
 </script>
